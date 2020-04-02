@@ -1,0 +1,33 @@
+.kontener{
+    background: grey;
+    margin: 0px auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraf{
+    display: block;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.paragraf:nth-child(2){
+    background: black;
+}
+.paragraf:nth-child(4){
+    background: yellow;
+}
+.paragraf:nth-child(6){
+    background: blue;
+}
+
+.paragraf:nth-child(9){
+    opacity: .5;
+}
+.paragraf:nth-child(10){
+    opacity: .1;
+}
